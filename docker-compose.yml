@@ -1,0 +1,11 @@
+﻿version: '3.4'
+
+services:
+  postgres-db:
+    image: postgres
+    environment:
+      POSTGRES_DB: WeatherDb
+      POSTGRES_USER: sa
+      POSTGRES_PASSWORD: testeSimples
+    ports:
+      - "5432:5432"

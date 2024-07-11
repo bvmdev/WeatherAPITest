@@ -7,7 +7,7 @@
 
 # Running Entries API
 
-Open de the terminal
+## Open de the terminal
 Navigate to CSPROJ Directory
 Run docker-compose up --build
 Open Another Terminal and Navigate to CSPROJ Directory
